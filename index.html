@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+        <div class="nav">
+            <div id="logo">Logo</div>
+            <div id="nav-items">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Contact me</a></li>
+                </ul>
+            </div>     
+        </div>
+        <div class="progressbar"></div>
+    <div class="content">
+        <div class="heading-content">
+            <div class="heading">
+                First Blog By Khatri
+            </div>
+            <div class="heading-description">This is the first blog by bhaarat kumar khatri</div>
+        </div>
+        <hr>
+        <div class="photo">
+            <img src="./img/5PMe5hr8tjSS9Nq5d6Cebe.jpg" alt="">
+        </div>
+        <div class="content-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, corrupti optio. Totam
+            eum soluta rem alias distinctio, tenetur fugit quis nostrum ex quod quidem iusto voluptas dolores aut vel
+            at.
+            Eaque quam fuga voluptatum facere culpa architecto est neque veritatis in rem. Dolore, culpa. Libero, minus
+            corrupti asperiores quas, veniam, fuga odit animi accusantium praesentium fugit earum ab labore aliquam.
+            Iusto omnis rerum tempora aliquam placeat blanditiis, beatae dolor doloremque nostrum architecto quod illum
+            cumque voluptatum deserunt fugiat quasi eligendi? Ad amet modi reprehenderit rem! Tempora excepturi
+            doloremque modi corrupti.
+            <br>
+            <br>
+            Ea nihil ab, nisi optio repellat provident dolores ex neque, consectetur magnam quas debitis eum saepe,
+            culpa eligendi nulla! Expedita provident eaque natus aspernatur quo repellat laboriosam distinctio. Quidem,
+            dignissimos.
+            Aspernatur nihil accusantium laborum veniam vero ullam aliquam cupiditate hic corporis. Reiciendis autem
+            nisi harum quasi, corporis ipsa temporibus facilis alias at corrupti impedit aspernatur, voluptate molestiae
+            dicta, atque ut.
+            <br>
+            <br>
+            Maiores veritatis rem quia saepe fugit nihil! Nobis fugiat adipisci voluptatibus laborum? Autem, sapiente
+            vitae ratione magni deleniti recusandae incidunt dignissimos voluptates aspernatur accusantium, corporis
+            quis nam error, tempore fugiat.
+            Rerum, ex, quam ab repudiandae voluptates aperiam non cupiditate omnis amet nulla voluptatibus voluptatum
+            natus fugit sed commodi. Neque nihil molestias ad deleniti, at quas veritatis ratione rem quae culpa.
+            Necessitatibus tempore eos quo illo nisi repellat? Vitae voluptate deserunt ab maxime sequi natus. Veritatis
+            cum esse architecto doloribus soluta, error reprehenderit reiciendis. Ut id necessitatibus nisi, modi
+            consequuntur odit?
+        </div>
+        <hr>
+    </div>
+    <div class="footer">
+        <div class="font">
+            <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
+            <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+        </div>
+        <div class="copyright">@_best_bloging_website</div>
+    </div>
+    <script>
+        var progressbar = document.querySelector('.progressbar');
+       
+        window.onscroll = function()
+        {
+            var totalHeight = document.body.scrollHeight - window.innerHeight ;
+            let progressbarWidth = (window.pageYOffset / totalHeight) * 100;
+            progressbar.style.width= progressbarWidth+"%" ;
+        }
+    </script>
+</body>
+
+</html>
